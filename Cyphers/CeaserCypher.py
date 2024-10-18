@@ -22,8 +22,8 @@ if isCode == "C":
         code = input("Insert your code(1 to inf): ")
 
     code = int(code)
-    if code >= 26:
-        code = 26 - code
+    if code > 25:
+        code %= 26
 
     answer = ""
     for letter in message:
