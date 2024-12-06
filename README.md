@@ -5,3 +5,4 @@
 - Reverse Cypher
 - Ceaser Cypher
 - Transposition Cypher
+- Affin Cypher
